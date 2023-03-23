@@ -99,56 +99,56 @@ header-includes:
 
 1. Перейдем на текстовую консоль. Увидим, что доступно 6 текстовых консолей: 1 в графическом окружении и 5 вне его. (рис. @fig:001 - @fig:006).
 
-![Консоль в графическом окружении](/image/img1.png){#fig:001}
+![Консоль в графическом окружении](image/img1.png){#fig:001 width=70%}
 
-![Текстовая консоль 2](image/img2.png){#fig:002}
+![Текстовая консоль 2](image/img2.png){#fig:002 width=70%}
 
-![Текстовая консоль 3](image/img3.png){#fig:003}
+![Текстовая консоль 3](image/img3.png){#fig:003 width=70%}
 
-![Текстовая консоль 4](image/img4.png){#fig:004}
+![Текстовая консоль 4](image/img4.png){#fig:004 width=70%}
 
-![Текстовая консоль 5](image/img5.png){#fig005}
+![Текстовая консоль 5](image/img5.png){#fig005 width=70%}
 
-![Текстовая консоль 6](image/img6.png){#fig006}
+![Текстовая консоль 6](image/img6.png){#fig006 width=70%}
 
 2. Перемещаемся между текстовыми консолями комбинациями Ctrl+Alt+F1-F6. 
 
 3. Зарегистрируемся в текстовой консоли операционной системе, используя логин lailjina. Не отображаются символы при вводе пароля. Завершим консольный сеанс, введя команду logout или комбинацию клавиш ctrl+D (рис. @fig:007).
 
-![Авторизация и завершение сессии в текстовой консоли](image/img7.png){#fig:007}
+![Авторизация и завершение сессии в текстовой консоли](image/img7.png){#fig:007 width=70%}
 
 4. Переключаемся на графическое окружение комбинацией Ctrl+Alt+F1 
 
 5. Ознакомимся с менеджером рабочих столов. Командой $echo $DESKTOP_SESSION выясним менеджер, запускаемый по умолчанию, - gnome classic. (рис. @fig:008)
 
-![Менеджер рабочего стола](image/img8.png){#fig:008}
+![Менеджер рабочего стола](image/img8.png){#fig:008 width=70%}
 
 6. Поочерёдно зарегистрироваться в разных графических менеджерах рабочих столов
 (GNOME (рис. @fig:009), KDE (рис. @fig:010), XFCE (рис. @fig:011) и оконных менеджерах (Openbox) (рис. @fig:013). Продемонстрируем разницу между ними, сделав снимки экрана (скриншоты). (рис. @fig:014)
 
 sudo yum groupinstall "GNOME Desktop"
 
-![Установка GNOME Desktop](image/img9.png){#fig:009}
+![Установка GNOME Desktop](image/img9.png){#fig:009 width=70%}
 
 sudo yum -y groups install "KDE Plasma Workspaces"
 
-![Установка KDE Plasma Workspaces](image/img10.png){#fig:010}
+![Установка KDE Plasma Workspaces](image/img10.png){#fig:010 width=70%}
 
 sudo yum groupinstall "Xfce" -y
 
-![Установка Xfce](image/img11.png){#fig:011} 
+![Установка Xfce](image/img11.png){#fig:011 width=70%} 
 
-![Настройка графической среды](image/img12.png){#fig:012} 
+![Настройка графической среды](image/img12.png){#fig:012 width=70%} 
 
-![GNOME Desktop](image/img13.png){#fig:013}
+![GNOME Desktop](image/img13.png){#fig:013 width=70%}
 
-![KDE Desktop](image/img14.png){#fig:014}
+![KDE Desktop](image/img14.png){#fig:014 width=70%}
 
-![Xfce Desktop](image/img15.png){#fig:015} 
+![Xfce Desktop](image/img15.jpg){#fig:015 width=70%} 
 
 Графические менеджеры, установленные на гостевой ОС на рис.(рис. @fig:016)
 
-![Xfce Desktop](image/img16.png){#fig:016} 
+![Xfce Desktop](image/img16.png){#fig:016 width=70%} 
 
 Ответы на контрольные вопросы
 Компьютерный терминал — устройство ввода/вывода, основные функции которого заключаются в вводе и отображении данных. У него есть преимущества, т. к. можно использовать лишь команды с клавиатуры.
