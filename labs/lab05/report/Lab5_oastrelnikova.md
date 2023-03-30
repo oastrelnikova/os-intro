@@ -218,22 +218,40 @@ $ pwd
 CHANGELOG.md  labs/     prepare            README.en.md        template/
 config/       LICENSE   presentation/      README.git-flow.md  новый 2.tex
 COURSE        Makefile  project-personal/  README.md
+
 4. Некоторые файлы в операционной системе скрыты от просмотра и обычно используются для настройки рабочей среды. Имена таких файлов начинаются с точки. Для того, чтобы отобразить имена скрытых файлов, необходимо использовать команду ls с опцией a: ls -a. 
 Находясь в папке os-intro применяем  ls -a, получаем
 .             COURSE          .gitmodules  prepare           README.git-flow.md
 ..            .git            labs         presentation      README.md
 CHANGELOG.md  .gitattributes  LICENSE      project-personal  template
 config        .gitignore      Makefile     README.en.md
+
 5. Команда rm используется для удаления файлов и/или каталогов. Команда rm -r необходима, чтобы удалить каталог, содержащий файлы. Без указания этой опции команда не будет выполняться. Если каталог пуст, то можно воспользоваться командой rmdir. Если удаляемый каталог содержит файлы, то команда не будет выполнена – нужно использовать «rm -r имя_каталога». Таким образом, каталог, не содержащий файлов, можно удалить и командой rm, и командой rmdir. Пример вы видим на изображени рис. @fig:010 . Файл командой rmdir удалить нельзя. 
+
 6. Чтобы определить, какие команды выполнил пользователь в сеансе работы, необходимо воспользоваться командой «history».
+
 7. Можно модифицировать команду из выведенного на экран списка при помощи следующей конструкции: *![номер_команды]:s/[что_меняем]/[на_что_меняем]*. Пример можно увидеть на рис. @fig:018 и рис. @fig:019 .
+
 8. Чтобы записать в одной строке несколько команд, необходимо между ними поставить ;. Пример:
 cd labs;ls
 Выведет в консоль следующее 
 lab01  lab03  lab05  lab07  lab09  lab11  lab13  lab15      README.ru.md
 lab02  lab04  lab06  lab08  lab10  lab12  lab14  README.md
+
 9. Символ обратного слэша \ позволяет использовать управляющие символы ( ".", "/", "$", "*", "[", "]", "^", "&") без их интерпретации командной оболочкой; процедура добавления данного символа перед управляющими символами называется экранированием символов. Например, команда «ls os-intro/labs» отобразит содержимое каталога os-intro/labs.
-10. Тип файла, право доступа, число ссылок, владелец, размер, дата последней ревизии,
+
+10. Тип файла, право доступа, число ссылок, владелец, размер, дата последней ревизии,имя файла или папки.
+ oastreljnikova@oastreljnikova report $ ls -l
+итого 4000
+drwxrwxr-x. 2 oastreljnikova oastreljnikova      22 мар 30 22:57 bib
+drwxrwxr-x. 2 oastreljnikova oastreljnikova    4096 мар 30 23:04 image
+-rw-rw-r--. 1 oastreljnikova oastreljnikova 1295481 мар 30 23:12 Lab5_oastrelnikova.docx
+-rw-rw-r--. 1 oastreljnikova oastreljnikova   20308 мар 30 23:11 Lab5_oastrelnikova.md
+-rw-rw-r--. 1 oastreljnikova oastreljnikova 1503608 мар 30 23:12 Lab5_oastrelnikova.pdf
+-rw-r--r--. 1 oastreljnikova oastreljnikova 1260386 мар 30 23:16 Lab5_oastrelnukova (arhiv).7z
+-rw-rw-r--. 1 oastreljnikova oastreljnikova    1064 мар 30 22:57 Makefile
+drwxrwxr-x. 4 oastreljnikova oastreljnikova      32 мар 30 22:57 pandoc
+
 11. Абсолютный путь от корня файловой системы – этот путь начинается от корня "/" и описывает весь путь к файлу или каталогу.
 
 Относительный путь – это путь к файлу относительно текущего каталога (каталога, где находится пользователь). 
@@ -253,5 +271,6 @@ oastreljnikova@oastreljnikova:~$ cd work/study/2022-2023/"Операционны
 oastreljnikova@oastreljnikova:~/work/study/2022-2023/Операционные системы/os-intro/labs/lab05/report$ 
 
 12. Воспользоваться конструкцией *man [имя_команды]*.
+
 13. Клавиша Tab. 
 
