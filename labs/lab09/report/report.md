@@ -1,7 +1,7 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
+title: "Лабораторная работа№ 8"
+subtitle: "Командная оболочки Midnight Commander"
 author: "Ильина Любовь Александровна"
 
 ## Generic otions
@@ -65,6 +65,8 @@ header-includes:
   - \usepackage{float} # keep figures where there are in the text
   - \floatplacement{figure}{H} # keep figures where there are in the text
 ---
+
+
 
 # Цель работы
 
@@ -265,7 +267,7 @@ header-includes:
 
 ![Сохранение файла F10](image/img36.png){#fig:036}
 
-5. Откроем файл с исходным текстом на некотором языке программирования (например C), нажав F4  
+5. Откроем файл с исходным текстом на некотором языке программирования (например C), нажав F4
 
 ![Открытие файла формата С](image/img37.png){#fig:037}
 
